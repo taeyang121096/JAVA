@@ -4,7 +4,7 @@ import java.util.ArrayList;
 
 public class OldVersion {
     public static void main(String[] args) {
-        ArrayList<String> list = new ArrayList<>(){{
+        ArrayList<String> list = new ArrayList<String>(){{
             add("test");
             add("test1");
             add("test2");

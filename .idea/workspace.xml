@@ -1,10 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
   <component name="ChangeListManager">
     <list default="true" id="10493426-21ff-4628-9868-a29d15b659c4" name="Changes" comment="java 8 목차 작성">
+      <change afterPath="$PROJECT_DIR$/src/java8/LambdaExpressions/FirstClassObject.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/java8/LambdaExpressions/NewVersion.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/java8/LambdaExpressions/NewVersion.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/java8/LambdaExpressions/OldVersion.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/java8/LambdaExpressions/OldVersion.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/java8/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/src/java8/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/java8/test.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/java8/test.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -24,6 +30,9 @@
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
+  <component name="ProjectColorInfo"><![CDATA[{
+  "associatedIndex": 5
+}]]></component>
   <component name="ProjectId" id="2cECVkDNrFUvrz6Qu0OaLUBSEwV" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
@@ -31,14 +40,35 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "Application.FirstClassObject.executor": "Run",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "WebServerToolWindowFactoryState": "false",
-    "nodejs_package_manager_path": "npm"
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "/Users/taeyang/git/JAVA",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
-  <component name="RunManager" selected="Application.OldVersion">
+  <component name="RunManager" selected="Application.FirstClassObject">
+    <configuration name="FirstClassObject" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="java8.LambdaExpressions.FirstClassObject" />
+      <module name="JAVA" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="java8.LambdaExpressions.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Main" />
       <module name="JAVA" />
@@ -87,12 +117,20 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.FirstClassObject" />
         <item itemvalue="Application.OldVersion" />
         <item itemvalue="Application.NewVersion" />
         <item itemvalue="Application.test" />
         <item itemvalue="Application.Main" />
       </list>
     </recent_temporary>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="jdk-1.8.0_402-corretto-1.8.0_402-f644763e9732-1a501b52" />
+      </set>
+    </attachedChunks>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -103,6 +141,7 @@
       <option name="presentableId" value="Default" />
       <updated>1707667378212</updated>
       <workItem from="1707667379685" duration="7443000" />
+      <workItem from="1707968487650" duration="2431000" />
     </task>
     <task id="LOCAL-00001" summary="java 8 목차 작성">
       <created>1707669041154</created>
