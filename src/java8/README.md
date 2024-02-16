@@ -37,13 +37,13 @@
     종류로는 Consumer, Supplier, Function, Operator, Predicate 가 있다.
     그 외로 직접 함수형 인터페이스를 생성 할 경우 @FunctionalInterface를 사용 해주면 된다.(꼭 해당 어노테이션 안붙여도 된다. 인터페이스 생성 편의 및 가독성을 높이기 위한 어노테이션)
 
-| 함수형 인터페이스     | 메서드  | 활용 방안 | 파라미터 | 리턴 값   |
-|---------------|------|-----|-----|--------|
-| Consumer`<T>` |||||
-| Supplier`<T>` |||||
-| Consumer`<T>` |||||
-| Consumer`<T>` |||||
-| Consumer`<T>` |||||
+| 함수형 인터페이스        | 메서드               | 활용 방안                                | 파라미터 | 리턴 값 |
+|------------------|-------------------|--------------------------------------|------|------|
+| Consumer`<T>`    | void accept(T t)  | 매개변수를 사용만 하고 return 존재 x             | O    | X    |
+| Supplier`<T>`    | T get()           | 매개 변수 사용안하고 return 존재 o              | X    | O    |
+| Function`<T, R>` | R apply(T t)      | 매개 변수를 타입 변경을 해서 return o            | O    | O    |
+| Predicate`<T>`   | boolean test(T t) | 매개 값이 조건에 맞는지 확인 후 boolean return o  | O    | O    |
+| Operator         | R applyAs(T t)    | 매개 값을 연산하여 return o                  | O    | O    |
 
     
 ### 3. Default method (디폴트 메소드)
