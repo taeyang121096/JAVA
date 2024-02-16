@@ -20,6 +20,7 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="Interface" />
         <option value="Class" />
       </list>
     </option>
@@ -30,9 +31,9 @@
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 5
-}]]></component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 5
+}</component>
   <component name="ProjectId" id="2cECVkDNrFUvrz6Qu0OaLUBSEwV" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
@@ -46,16 +47,36 @@
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "WebServerToolWindowFactoryState": "false",
     "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "/Users/taeyang/git/JAVA",
+    "last_opened_file_path": "C:/Users/taeyang121096/Desktop/개인/JAVA",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_package_manager_path": "npm",
     "vue.rearranger.settings.migration": "true"
+  },
+  "keyToStringList": {
+    "GitStage.ChangesTree.GroupingKeys": [
+      "directory",
+      "module",
+      "repository"
+    ]
   }
 }]]></component>
-  <component name="RunManager" selected="Application.FirstClassObject">
+  <component name="RunManager" selected="Application.FunctionInterface">
+    <configuration name="CustomFunctionClass" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="java8.FunctionalInterface.CustomFunctionClass" />
+      <module name="JAVA" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="java8.FunctionalInterface.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="FirstClassObject" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="java8.LambdaExpressions.FirstClassObject" />
       <module name="JAVA" />
@@ -69,19 +90,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Main" />
-      <module name="JAVA" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="NewVersion" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="java8.LambdaExpressions.NewVersion" />
+    <configuration name="FunctionInterface" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="java8.FunctionalInterface.FunctionInterface" />
       <module name="JAVA" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="java8.LambdaExpressions.*" />
+          <option name="PATTERN" value="java8.FunctionalInterface.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -89,12 +103,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="OldVersion" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="java8.LambdaExpressions.OldVersion" />
+    <configuration name="SupplierInterface" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="java8.FunctionalInterface.SupplierInterface" />
       <module name="JAVA" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="java8.LambdaExpressions.*" />
+          <option name="PATTERN" value="java8.FunctionalInterface.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -102,12 +116,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="java8.test" />
+    <configuration name="java8.FunctionalInterface.ConsumerInterface" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="java8.FunctionalInterface.ConsumerInterface" />
       <module name="JAVA" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="java8.*" />
+          <option name="PATTERN" value="java8.FunctionalInterface.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -117,11 +131,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.FunctionInterface" />
+        <item itemvalue="Application.SupplierInterface" />
+        <item itemvalue="Application.CustomFunctionClass" />
+        <item itemvalue="Application.java8.FunctionalInterface.ConsumerInterface" />
         <item itemvalue="Application.FirstClassObject" />
-        <item itemvalue="Application.OldVersion" />
-        <item itemvalue="Application.NewVersion" />
-        <item itemvalue="Application.test" />
-        <item itemvalue="Application.Main" />
       </list>
     </recent_temporary>
   </component>
@@ -142,6 +156,7 @@
       <updated>1707667378212</updated>
       <workItem from="1707667379685" duration="7443000" />
       <workItem from="1707968487650" duration="2431000" />
+      <workItem from="1708078029010" duration="1893000" />
     </task>
     <task id="LOCAL-00001" summary="java 8 목차 작성">
       <created>1707669041154</created>
