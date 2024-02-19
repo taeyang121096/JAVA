@@ -47,6 +47,11 @@
 
     
 ### 3. Default method (디폴트 메소드)
+    Interface에서 Method 구현이 가능해졌다.(추상 메소드만 사용 가능 했음)
+    * 다중 상속 문제의 우선순위의 경우
+        1. 클래스에서 정의한 Method가 항상 우선순위를 갖는다.
+        2. 클래스가 아닌경우 sub Interface Method가 실행 되어진다.
+        3. 그 외에는 해당 class에서 명시적으로 호출을 해야 한다. (super.method())
 ### 4. Stream (스트림)
 ### 5. Optional (옵션널)
 ### 6. Date Time Package (새로운 날짜 API)
