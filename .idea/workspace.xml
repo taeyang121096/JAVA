@@ -63,20 +63,7 @@
     ]
   }
 }</component>
-  <component name="RunManager" selected="Application.DefaultClass">
-    <configuration name="CustomFunctionClass" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="java8.FunctionalInterface.CustomFunctionClass" />
-      <module name="JAVA" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="java8.FunctionalInterface.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Application.StreamProperty">
     <configuration name="DefaultClass" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="java8.DefaultMethod.DefaultClass" />
       <module name="JAVA" />
@@ -103,12 +90,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SupplierInterface" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="java8.FunctionalInterface.SupplierInterface" />
+    <configuration name="NewVersion" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="java8.Stream.NewVersion" />
       <module name="JAVA" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="java8.FunctionalInterface.*" />
+          <option name="PATTERN" value="java8.Stream.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -116,12 +103,25 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="java8.FunctionalInterface.ConsumerInterface" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="java8.FunctionalInterface.ConsumerInterface" />
+    <configuration name="OldVersion" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="java8.Stream.OldVersion" />
       <module name="JAVA" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="java8.FunctionalInterface.*" />
+          <option name="PATTERN" value="java8.Stream.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="StreamProperty" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="java8.Stream.StreamProperty" />
+      <module name="JAVA" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="java8.Stream.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -131,11 +131,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.StreamProperty" />
+        <item itemvalue="Application.NewVersion" />
+        <item itemvalue="Application.OldVersion" />
         <item itemvalue="Application.DefaultClass" />
         <item itemvalue="Application.FunctionInterface" />
-        <item itemvalue="Application.SupplierInterface" />
-        <item itemvalue="Application.CustomFunctionClass" />
-        <item itemvalue="Application.java8.FunctionalInterface.ConsumerInterface" />
       </list>
     </recent_temporary>
   </component>
@@ -165,7 +165,14 @@
       <option name="project" value="LOCAL" />
       <updated>1707669041154</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Default method 정리">
+      <created>1708316915857</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1708316915857</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -196,6 +203,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="java 8 목차 작성" />
-    <option name="LAST_COMMIT_MESSAGE" value="java 8 목차 작성" />
+    <MESSAGE value="Default method 정리" />
+    <option name="LAST_COMMIT_MESSAGE" value="Default method 정리" />
   </component>
 </project>
