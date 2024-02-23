@@ -89,7 +89,21 @@
 
 ### 5. Optional (옵션널)
     null이 올 수 있는 값을 감싸는 Wrapper 클래스이다.
+
     * Optionial은 static 변수로 empty 객체를 가지고 있어 메모리를 절약한다.
     * 결과가 null이 될 수 있으며, null에 의해 오류가 발생할 가능성이 매우 높을 때 반환값으로만 사용되어야 한다.(함수 등이 존재하여 오버헤드 존재한다.)
+    * Optional은 지극히 반환 타입을 위해 구성되어져 있다.
+    * Optional은 null을 반환하면 오류가 발생할 경우에 결과 없음을 명확히 나나태기 위해 필요로 한 것이다.
+    * 기본적으로 Optional은 직렬화를 지원하지 않는다(요즘은 지원을 많이 하긴 하지만 굳이..?)
+
+    - 사용시 이점을 볼 수 있는 방향
+        1. Optional 변수에 Null대입 X
+        2. orElseGet을 기본으로 사용
+        3. 단순히 값을 얻으려는 목적으로만 Optional을 사용하지 마라
+        4. 생성자, 수정자, 메소드 파라미터 등으로 Optional을 넘기지 마라
+        5. Collection의 경우 Optional이 아닌 빈 Collection을 사용하라
+        .6 반환 타입으로만 사용하라
+
+    
 ### 6. Date Time Package (새로운 날짜 API)
 ### 7. JVM 변화 
