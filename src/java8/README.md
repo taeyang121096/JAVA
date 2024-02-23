@@ -88,5 +88,8 @@
 
 
 ### 5. Optional (옵션널)
+    null이 올 수 있는 값을 감싸는 Wrapper 클래스이다.
+    * Optionial은 static 변수로 empty 객체를 가지고 있어 메모리를 절약한다.
+    * 결과가 null이 될 수 있으며, null에 의해 오류가 발생할 가능성이 매우 높을 때 반환값으로만 사용되어야 한다.(함수 등이 존재하여 오버헤드 존재한다.)
 ### 6. Date Time Package (새로운 날짜 API)
 ### 7. JVM 변화 
