@@ -22,3 +22,16 @@
     5. Optional
     6. Date Time Package
     7. JVM 변화
+
+## java11
+    변경사항 정리
+    1. 컬렉션을 쉽게 구성 
+    2. Stream 추가 메서드 
+    3. interface private method 사용 가능 
+    4. 변수 유형 추론 var 키워드 도입 
+    5. 병렬처리 가비지 컬렉션 도입 
+    6. Oracle Jdk 와 OpenJdk 통합 -> Oracle JDK는 유료화 되어진다.
+    7. 기타 추가 
+
+## Spring initializr
+    spring boot 3.2.3 & java 21, 17
