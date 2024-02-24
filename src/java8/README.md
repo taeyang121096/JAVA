@@ -92,8 +92,9 @@
 
     * Optionial은 static 변수로 empty 객체를 가지고 있어 메모리를 절약한다.
     * 결과가 null이 될 수 있으며, null에 의해 오류가 발생할 가능성이 매우 높을 때 반환값으로만 사용되어야 한다.(함수 등이 존재하여 오버헤드 존재한다.)
+        - NPE,NoSuchElementException
     * Optional은 지극히 반환 타입을 위해 구성되어져 있다.
-    * Optional은 null을 반환하면 오류가 발생할 경우에 결과 없음을 명확히 나나태기 위해 필요로 한 것이다.
+    * Optional은 null을 반환하면 오류가 발생할 경우에 결과 없음을 명확히 나나태기 위해 필요로 한 것이다.(stream api 체이닝 용으로 탄생)
     * 기본적으로 Optional은 직렬화를 지원하지 않는다(요즘은 지원을 많이 하긴 하지만 굳이..?)
 
     - 사용시 이점을 볼 수 있는 방향
@@ -102,8 +103,36 @@
         3. 단순히 값을 얻으려는 목적으로만 Optional을 사용하지 마라
         4. 생성자, 수정자, 메소드 파라미터 등으로 Optional을 넘기지 마라
         5. Collection의 경우 Optional이 아닌 빈 Collection을 사용하라
-        .6 반환 타입으로만 사용하라
+        6. 반환 타입으로만 사용하라
 
     
 ### 6. Date Time Package (새로운 날짜 API)
+
+    java8 이전의 날짜와 시간들에 대해서 우선 알아볼 필요가 있다.
+    - 전에 주로 사용한 java 기본 날짜 시간 클래스의 경우 java.util.Date, java.util.Calendar, java.text.SimpleDateFormat 등의 클래스를 사용하였다.
+      해당 클래스들은 3가지 정도의 대표적 이슈를 가지고 있는데
+        1. mutable 객체여서 thread safe 하지 않았다.
+        2. 클래스의 작명이 잘 되어 있지 않았다 -> Date 클래스에서 시간까지 확인 가능했다.
+        3. 파라미터로 숫자도 들어갈 수 있으며 type safe 하지 않아서 헷갈렸다.
+        4. 추가적으로 일관성 없는 요일 상수를 확인 할 수 있다.
+
+#### __따라서 java8 이전에는 주로 Joda-Time 이라는 라이브러를 사용하였다.__
+
+    java8 Date-Time API
+        
+    * API들이 명확해 졌다.
+    * immutable 해졌다. -> 인스턴스 값이 변경 되어지는게 아니라 새로운 인스턴스가 나온다는 뜻이다.
+    * null을 반환하는 메소드가 없기에 계속해서 체이닝이 가능해졌다.
+    * DateTimeFormatter를 이용하여 일시를 특정한 문자열로 formatting 할 수 있다.
+    
+    - 추가 되어진 클래스 (타임존 : 동일한 로컬 시간을 따르는 지역, 해당 국가에 의해 법적으로 지정되어있다.)
+        * java.time.LocalDate - 타임존 사용하지 않음.
+        * java.time.LocalTime - 타임존 사용하지 않음.
+        * java.time.LocalDateTime - 타임존 사용하지 않음.
+        * java.time.ZonedDateTime - 타임존 사용.
+        * java.time.DateTimeFormatter - java.time에 대한 형식
+        * java.time.Duration - 초 단위
+        * java.time.Period - 년, 월 일
+        * java.time.TemporalAdjuster - 날짜 조정
+
 ### 7. JVM 변화 

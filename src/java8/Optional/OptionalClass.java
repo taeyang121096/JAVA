@@ -39,6 +39,18 @@ public class OptionalClass {
 
 //        orElse, orElseGet -> orElse는 파라미터로 값을 필요로 한다. orElseGet 함수형 인터페이스를 파라미터로 갖는다.
 
+        Optional<Test> test4 = Optional.ofNullable(Test.getTest());
+        Optional<Test> test5 = Optional.empty();
+        Optional<Object> em = Optional.empty();
+        System.out.println(test4.orElse(null).getAge());
+        System.out.println(test5.orElseGet(Test::getTest).getAge());
+
+        try {
+            em.orElseThrow(NullPointerException::new);
+        }catch (Exception e){
+            System.out.println(e.getClass());
+        }
+
 
     }
 }
