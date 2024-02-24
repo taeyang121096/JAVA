@@ -136,3 +136,13 @@
         * java.time.TemporalAdjuster - 날짜 조정
 
 ### 7. JVM 변화 
+
+    * PermGen 영역이 -> Metaspace 영역으로 변경 되어졌다 (jvm 옵션을 줄 때도 고려해야 한다.)
+        - PermGen 영역은 클래스의 메타정보(클래스 이르, 어노테이션 정보, static 필드 클래스 구성 정보)를 관리하는 메모리이다.
+
+    PermGen은 Heap 메뢰에 포함되어 있어서 클래스가 많은 어플리케이션의 경우 oom이 발생 할 때도 있엇다.
+    Metaspace의 경우 Native영역에 새롭게 생성이 되었으며 OS가 크기를 자동으로 조절 한다.
+    옵션 : (-XX:MaxMetaspaceSize=N)
+
+### __Metaspace 의 경우 메모리가 가변적으로 늘어남으로 최대값을 설정 해주는게 좋다.__
+    
