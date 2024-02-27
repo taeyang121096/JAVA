@@ -45,6 +45,7 @@
 
 ## JAVA8
     변경사항 정리
+
     1. Lambda expression
     2. Functional interface
     3. Default method
@@ -55,13 +56,30 @@
 
 ## JAVA11
     변경사항 정리
+
     1. 컬렉션을 쉽게 구성 
     2. Stream 추가 메서드 
     3. interface private method 사용 가능 
     4. 변수 유형 추론 var 키워드 도입 
     5. 병렬처리 가비지 컬렉션 도입 
     6. Oracle Jdk 와 OpenJdk 통합 -> Oracle JDK는 유료화 되어진다.
-    7. 기타 추가 
+    7. 기타 추가
+
+G1 gc에 관해서 자세하게 나와있는 블로그 글이다.<br>
+[G1 gc에 관하여](https://steady-coding.tistory.com/590)
+
+## JAVA17
+    변경사항 정리
+    
+    1. 텍스트 블록
+    2. Switch 표현식
+    3. Records
+    4. Instanceof 변수 생성
+    5. Stream toList() 
+    6. Compact number foramt
+    8. 암호화 업데이트
+    7. 성능 개선
+
 
 ## Spring initializr
     spring boot 3.2.3 & java 21, 17
