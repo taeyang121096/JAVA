@@ -77,8 +77,9 @@ G1 gc에 관해서 자세하게 나와있는 블로그 글이다.<br>
     4. Instanceof 변수 생성
     5. Stream toList() 
     6. Compact number foramt
+    7. Sealed
     8. 암호화 업데이트
-    7. 성능 개선
+    9. 성능 개선
 
 
 ## Spring initializr
