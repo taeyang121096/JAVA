@@ -12,5 +12,11 @@ public class StringTestClass {
         System.out.println(str.repeat(10));
         "test\ntest1".lines().
                 forEach(System.out::println);
+
+        List<String> test = List.of("test", "test1");
+        test.forEach((s) -> {
+            System.out.println(s);
+            return;
+        });
     }
 }
