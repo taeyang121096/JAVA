@@ -1,0 +1,448 @@
+Index: ../../.idea/shelf/Uncommitted_changes_before_Update_at_2024-02-12_오전_1_07_[Changes]/shelved.patch
+===================================================================
+diff --git a/../../.idea/shelf/Uncommitted_changes_before_Update_at_2024-02-12_오전_1_07_[Changes]/shelved.patch b/../../.idea/shelf/Uncommitted_changes_before_Update_at_2024-02-12_오전_1_07_[Changes]/shelved.patch
+deleted file mode 100644
+--- a/../../.idea/shelf/Uncommitted_changes_before_Update_at_2024-02-12_오전_1_07_[Changes]/shelved.patch	(revision 0ff82cd5667426e7a3e87f3fa1100e9d8bd321a4)
++++ /dev/null	(revision 0ff82cd5667426e7a3e87f3fa1100e9d8bd321a4)
+@@ -1,36 +0,0 @@
+-Index: .idea/jpa-buddy.xml
+-IDEA additional info:
+-Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+-<+>UTF-8
+-===================================================================
+-diff --git a/.idea/jpa-buddy.xml b/.idea/jpa-buddy.xml
+-new file mode 100644
+---- /dev/null	(date 1707667390645)
+-+++ b/.idea/jpa-buddy.xml	(date 1707667390645)
+-@@ -0,0 +1,6 @@
+-+<?xml version="1.0" encoding="UTF-8"?>
+-+<project version="4">
+-+  <component name="JpaBuddyIdeaProjectConfig">
+-+    <option name="renamerInitialized" value="true" />
+-+  </component>
+-+</project>
+-\ No newline at end of file
+-Index: .idea/misc.xml
+-IDEA additional info:
+-Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+-<+><?xml version=\"1.0\" encoding=\"UTF-8\"?>\r\n<project version=\"4\">\r\n  <component name=\"ProjectRootManager\" version=\"2\" languageLevel=\"JDK_15\" default=\"true\" project-jdk-name=\"1.8\" project-jdk-type=\"JavaSDK\">\r\n    <output url=\"file://$PROJECT_DIR$/out\" />\r\n  </component>\r\n</project>
+-Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+-<+>UTF-8
+-===================================================================
+-diff --git a/.idea/misc.xml b/.idea/misc.xml
+---- a/.idea/misc.xml	(revision ea39c18fb4f502565c861ec48841d1f239a6ea83)
+-+++ b/.idea/misc.xml	(date 1707667390624)
+-@@ -3,4 +3,7 @@
+-   <component name="ProjectRootManager" version="2" languageLevel="JDK_15" default="true" project-jdk-name="1.8" project-jdk-type="JavaSDK">
+-     <output url="file://$PROJECT_DIR$/out" />
+-   </component>
+-+  <component name="ProjectType">
+-+    <option name="id" value="jpab" />
+-+  </component>
+- </project>
+-\ No newline at end of file
+Index: ../../.idea/shelf/Uncommitted_changes_before_Update_at_2024-02-12__1_07__Changes_.xml
+===================================================================
+diff --git a/../../.idea/shelf/Uncommitted_changes_before_Update_at_2024-02-12__1_07__Changes_.xml b/../../.idea/shelf/Uncommitted_changes_before_Update_at_2024-02-12__1_07__Changes_.xml
+deleted file mode 100644
+--- a/../../.idea/shelf/Uncommitted_changes_before_Update_at_2024-02-12__1_07__Changes_.xml	(revision 0ff82cd5667426e7a3e87f3fa1100e9d8bd321a4)
++++ /dev/null	(revision 0ff82cd5667426e7a3e87f3fa1100e9d8bd321a4)
+@@ -1,4 +0,0 @@
+-<changelist name="Uncommitted_changes_before_Update_at_2024-02-12_오전_1_07_[Changes]" date="1707667657699" recycled="true" deleted="true">
+-  <option name="PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_2024-02-12_오전_1_07_[Changes]/shelved.patch" />
+-  <option name="DESCRIPTION" value="Uncommitted changes before Update at 2024-02-12 오전 1:07 [Changes]" />
+-</changelist>
+\ No newline at end of file
+Index: ../../.idea/workspace.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+><?xml version=\"1.0\" encoding=\"UTF-8\"?>\n<project version=\"4\">\n  <component name=\"AutoImportSettings\">\n    <option name=\"autoReloadType\" value=\"SELECTIVE\" />\n  </component>\n  <component name=\"ChangeListManager\">\n    <list default=\"true\" id=\"10493426-21ff-4628-9868-a29d15b659c4\" name=\"Changes\" comment=\"java 8 목차 작성\">\n      <change afterPath=\"$PROJECT_DIR$/src/java8/LambdaExpressions/FirstClassObject.java\" afterDir=\"false\" />\n      <change beforePath=\"$PROJECT_DIR$/.idea/misc.xml\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/.idea/misc.xml\" afterDir=\"false\" />\n      <change beforePath=\"$PROJECT_DIR$/.idea/workspace.xml\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/.idea/workspace.xml\" afterDir=\"false\" />\n      <change beforePath=\"$PROJECT_DIR$/src/java8/LambdaExpressions/NewVersion.java\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/src/java8/LambdaExpressions/NewVersion.java\" afterDir=\"false\" />\n      <change beforePath=\"$PROJECT_DIR$/src/java8/LambdaExpressions/OldVersion.java\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/src/java8/LambdaExpressions/OldVersion.java\" afterDir=\"false\" />\n      <change beforePath=\"$PROJECT_DIR$/src/java8/README.md\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/src/java8/README.md\" afterDir=\"false\" />\n    </list>\n    <option name=\"SHOW_DIALOG\" value=\"false\" />\n    <option name=\"HIGHLIGHT_CONFLICTS\" value=\"true\" />\n    <option name=\"HIGHLIGHT_NON_ACTIVE_CHANGELIST\" value=\"false\" />\n    <option name=\"LAST_RESOLUTION\" value=\"IGNORE\" />\n  </component>\n  <component name=\"FileTemplateManagerImpl\">\n    <option name=\"RECENT_TEMPLATES\">\n      <list>\n        <option value=\"Interface\" />\n        <option value=\"Class\" />\n      </list>\n    </option>\n  </component>\n  <component name=\"Git.Settings\">\n    <option name=\"RECENT_GIT_ROOT_PATH\" value=\"$PROJECT_DIR$\" />\n  </component>\n  <component name=\"MarkdownSettingsMigration\">\n    <option name=\"stateVersion\" value=\"1\" />\n  </component>\n  <component name=\"ProjectColorInfo\">{\n  &quot;associatedIndex&quot;: 5\n}</component>\n  <component name=\"ProjectId\" id=\"2cECVkDNrFUvrz6Qu0OaLUBSEwV\" />\n  <component name=\"ProjectLevelVcsManager\" settingsEditedManually=\"true\" />\n  <component name=\"ProjectViewState\">\n    <option name=\"showLibraryContents\" value=\"true\" />\n  </component>\n  <component name=\"PropertiesComponent\">{\n  &quot;keyToString&quot;: {\n    &quot;Application.FirstClassObject.executor&quot;: &quot;Run&quot;,\n    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,\n    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,\n    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,\n    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,\n    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,\n    &quot;last_opened_file_path&quot;: &quot;C:/Users/taeyang121096/Desktop/개인/JAVA&quot;,\n    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,\n    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,\n    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,\n    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,\n    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,\n    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;\n  },\n  &quot;keyToStringList&quot;: {\n    &quot;GitStage.ChangesTree.GroupingKeys&quot;: [\n      &quot;directory&quot;,\n      &quot;module&quot;,\n      &quot;repository&quot;\n    ]\n  }\n}</component>\n  <component name=\"RunManager\" selected=\"Application.StreamProperty\">\n    <configuration name=\"DefaultClass\" type=\"Application\" factoryName=\"Application\" temporary=\"true\" nameIsGenerated=\"true\">\n      <option name=\"MAIN_CLASS_NAME\" value=\"java8.DefaultMethod.DefaultClass\" />\n      <module name=\"JAVA\" />\n      <extension name=\"coverage\">\n        <pattern>\n          <option name=\"PATTERN\" value=\"java8.DefaultMethod.*\" />\n          <option name=\"ENABLED\" value=\"true\" />\n        </pattern>\n      </extension>\n      <method v=\"2\">\n        <option name=\"Make\" enabled=\"true\" />\n      </method>\n    </configuration>\n    <configuration name=\"FunctionInterface\" type=\"Application\" factoryName=\"Application\" temporary=\"true\" nameIsGenerated=\"true\">\n      <option name=\"MAIN_CLASS_NAME\" value=\"java8.FunctionalInterface.FunctionInterface\" />\n      <module name=\"JAVA\" />\n      <extension name=\"coverage\">\n        <pattern>\n          <option name=\"PATTERN\" value=\"java8.FunctionalInterface.*\" />\n          <option name=\"ENABLED\" value=\"true\" />\n        </pattern>\n      </extension>\n      <method v=\"2\">\n        <option name=\"Make\" enabled=\"true\" />\n      </method>\n    </configuration>\n    <configuration name=\"NewVersion\" type=\"Application\" factoryName=\"Application\" temporary=\"true\" nameIsGenerated=\"true\">\n      <option name=\"MAIN_CLASS_NAME\" value=\"java8.Stream.NewVersion\" />\n      <module name=\"JAVA\" />\n      <extension name=\"coverage\">\n        <pattern>\n          <option name=\"PATTERN\" value=\"java8.Stream.*\" />\n          <option name=\"ENABLED\" value=\"true\" />\n        </pattern>\n      </extension>\n      <method v=\"2\">\n        <option name=\"Make\" enabled=\"true\" />\n      </method>\n    </configuration>\n    <configuration name=\"OldVersion\" type=\"Application\" factoryName=\"Application\" temporary=\"true\" nameIsGenerated=\"true\">\n      <option name=\"MAIN_CLASS_NAME\" value=\"java8.Stream.OldVersion\" />\n      <module name=\"JAVA\" />\n      <extension name=\"coverage\">\n        <pattern>\n          <option name=\"PATTERN\" value=\"java8.Stream.*\" />\n          <option name=\"ENABLED\" value=\"true\" />\n        </pattern>\n      </extension>\n      <method v=\"2\">\n        <option name=\"Make\" enabled=\"true\" />\n      </method>\n    </configuration>\n    <configuration name=\"StreamProperty\" type=\"Application\" factoryName=\"Application\" temporary=\"true\" nameIsGenerated=\"true\">\n      <option name=\"MAIN_CLASS_NAME\" value=\"java8.Stream.StreamProperty\" />\n      <module name=\"JAVA\" />\n      <extension name=\"coverage\">\n        <pattern>\n          <option name=\"PATTERN\" value=\"java8.Stream.*\" />\n          <option name=\"ENABLED\" value=\"true\" />\n        </pattern>\n      </extension>\n      <method v=\"2\">\n        <option name=\"Make\" enabled=\"true\" />\n      </method>\n    </configuration>\n    <recent_temporary>\n      <list>\n        <item itemvalue=\"Application.StreamProperty\" />\n        <item itemvalue=\"Application.NewVersion\" />\n        <item itemvalue=\"Application.OldVersion\" />\n        <item itemvalue=\"Application.DefaultClass\" />\n        <item itemvalue=\"Application.FunctionInterface\" />\n      </list>\n    </recent_temporary>\n  </component>\n  <component name=\"SharedIndexes\">\n    <attachedChunks>\n      <set>\n        <option value=\"jdk-1.8.0_402-corretto-1.8.0_402-f644763e9732-1a501b52\" />\n      </set>\n    </attachedChunks>\n  </component>\n  <component name=\"SpellCheckerSettings\" RuntimeDictionaries=\"0\" Folders=\"0\" CustomDictionaries=\"0\" DefaultDictionary=\"application-level\" UseSingleDictionary=\"true\" transferred=\"true\" />\n  <component name=\"TaskManager\">\n    <task active=\"true\" id=\"Default\" summary=\"Default task\">\n      <changelist id=\"10493426-21ff-4628-9868-a29d15b659c4\" name=\"Changes\" comment=\"\" />\n      <created>1707667378212</created>\n      <option name=\"number\" value=\"Default\" />\n      <option name=\"presentableId\" value=\"Default\" />\n      <updated>1707667378212</updated>\n      <workItem from=\"1707667379685\" duration=\"7443000\" />\n      <workItem from=\"1707968487650\" duration=\"2431000\" />\n      <workItem from=\"1708078029010\" duration=\"1893000\" />\n    </task>\n    <task id=\"LOCAL-00001\" summary=\"java 8 목차 작성\">\n      <created>1707669041154</created>\n      <option name=\"number\" value=\"00001\" />\n      <option name=\"presentableId\" value=\"LOCAL-00001\" />\n      <option name=\"project\" value=\"LOCAL\" />\n      <updated>1707669041154</updated>\n    </task>\n    <task id=\"LOCAL-00002\" summary=\"Default method 정리\">\n      <created>1708316915857</created>\n      <option name=\"number\" value=\"00002\" />\n      <option name=\"presentableId\" value=\"LOCAL-00002\" />\n      <option name=\"project\" value=\"LOCAL\" />\n      <updated>1708316915857</updated>\n    </task>\n    <option name=\"localTasksCounter\" value=\"3\" />\n    <servers />\n  </component>\n  <component name=\"TypeScriptGeneratedFilesManager\">\n    <option name=\"version\" value=\"3\" />\n  </component>\n  <component name=\"Vcs.Log.Tabs.Properties\">\n    <option name=\"TAB_STATES\">\n      <map>\n        <entry key=\"MAIN\">\n          <value>\n            <State>\n              <option name=\"FILTERS\">\n                <map>\n                  <entry key=\"branch\">\n                    <value>\n                      <list>\n                        <option value=\"master\" />\n                      </list>\n                    </value>\n                  </entry>\n                </map>\n              </option>\n            </State>\n          </value>\n        </entry>\n      </map>\n    </option>\n  </component>\n  <component name=\"VcsManagerConfiguration\">\n    <MESSAGE value=\"java 8 목차 작성\" />\n    <MESSAGE value=\"Default method 정리\" />\n    <option name=\"LAST_COMMIT_MESSAGE\" value=\"Default method 정리\" />\n  </component>\n</project>
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/../../.idea/workspace.xml b/../../.idea/workspace.xml
+--- a/../../.idea/workspace.xml	(revision 0ff82cd5667426e7a3e87f3fa1100e9d8bd321a4)
++++ b/../../.idea/workspace.xml	(date 1716022919706)
+@@ -4,13 +4,11 @@
+     <option name="autoReloadType" value="SELECTIVE" />
+   </component>
+   <component name="ChangeListManager">
+-    <list default="true" id="10493426-21ff-4628-9868-a29d15b659c4" name="Changes" comment="java 8 목차 작성">
+-      <change afterPath="$PROJECT_DIR$/src/java8/LambdaExpressions/FirstClassObject.java" afterDir="false" />
++    <list default="true" id="10493426-21ff-4628-9868-a29d15b659c4" name="Changes" comment="java 정리 수정">
+       <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
++      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_2024-02-12__1_07__Changes_.xml" beforeDir="false" />
++      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_2024-02-12_오전_1_07_[Changes]/shelved.patch" beforeDir="false" />
+       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+-      <change beforePath="$PROJECT_DIR$/src/java8/LambdaExpressions/NewVersion.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/java8/LambdaExpressions/NewVersion.java" afterDir="false" />
+-      <change beforePath="$PROJECT_DIR$/src/java8/LambdaExpressions/OldVersion.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/java8/LambdaExpressions/OldVersion.java" afterDir="false" />
+-      <change beforePath="$PROJECT_DIR$/src/java8/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/src/java8/README.md" afterDir="false" />
+     </list>
+     <option name="SHOW_DIALOG" value="false" />
+     <option name="HIGHLIGHT_CONFLICTS" value="true" />
+@@ -28,6 +26,18 @@
+   <component name="Git.Settings">
+     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+   </component>
++  <component name="GitHubPullRequestSearchHistory">{
++  &quot;lastFilter&quot;: {
++    &quot;state&quot;: &quot;OPEN&quot;,
++    &quot;assignee&quot;: &quot;taeyang121096&quot;
++  }
++}</component>
++  <component name="GithubPullRequestsUISettings">{
++  &quot;selectedUrlAndAccountId&quot;: {
++    &quot;url&quot;: &quot;https://github.com/taeyang121096/JAVA.git&quot;,
++    &quot;accountId&quot;: &quot;adefacf3-9a16-4219-8412-7ae15ae0d188&quot;
++  }
++}</component>
+   <component name="MarkdownSettingsMigration">
+     <option name="stateVersion" value="1" />
+   </component>
+@@ -41,18 +51,32 @@
+   </component>
+   <component name="PropertiesComponent">{
+   &quot;keyToString&quot;: {
++    &quot;Application.AdvancedStream.executor&quot;: &quot;Run&quot;,
++    &quot;Application.BasicStream.executor&quot;: &quot;Run&quot;,
++    &quot;Application.CollectionClass.executor&quot;: &quot;Run&quot;,
++    &quot;Application.DateTime.executor&quot;: &quot;Run&quot;,
+     &quot;Application.FirstClassObject.executor&quot;: &quot;Run&quot;,
++    &quot;Application.OptionalClass.executor&quot;: &quot;Run&quot;,
++    &quot;Application.StreamClass.executor&quot;: &quot;Run&quot;,
++    &quot;Application.StreamProperty.executor&quot;: &quot;Run&quot;,
++    &quot;Application.StringTestClass.executor&quot;: &quot;Run&quot;,
++    &quot;Application.test.executor&quot;: &quot;Run&quot;,
+     &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+     &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+     &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
++    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+     &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+-    &quot;last_opened_file_path&quot;: &quot;C:/Users/taeyang121096/Desktop/개인/JAVA&quot;,
++    &quot;last_opened_file_path&quot;: &quot;/Users/taeyang/git/JAVA/src/java/test&quot;,
+     &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+     &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+     &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+     &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+     &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
++    &quot;project.structure.last.edited&quot;: &quot;Project&quot;,
++    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
++    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
++    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.keymap&quot;,
+     &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+   },
+   &quot;keyToStringList&quot;: {
+@@ -63,13 +87,83 @@
+     ]
+   }
+ }</component>
+-  <component name="RunManager" selected="Application.StreamProperty">
+-    <configuration name="DefaultClass" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+-      <option name="MAIN_CLASS_NAME" value="java8.DefaultMethod.DefaultClass" />
++  <component name="RecentsManager">
++    <key name="CopyFile.RECENT_KEYS">
++      <recent name="$PROJECT_DIR$/src/java/test" />
++    </key>
++  </component>
++  <component name="RunManager" selected="Application.StringTestClass">
++    <configuration name="CollectionClass" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
++      <option name="MAIN_CLASS_NAME" value="java11.collection.CollectionClass" />
++      <module name="JAVA" />
++      <extension name="coverage">
++        <pattern>
++          <option name="PATTERN" value="java11.collection.*" />
++          <option name="ENABLED" value="true" />
++        </pattern>
++      </extension>
++      <method v="2">
++        <option name="Make" enabled="true" />
++      </method>
++    </configuration>
++    <configuration name="CollectionClass" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
++      <option name="MAIN_CLASS_NAME" value="java11.collection.CollectionClass" />
++      <module name="JAVA" />
++      <extension name="coverage">
++        <pattern>
++          <option name="PATTERN" value="java11.collection.*" />
++          <option name="ENABLED" value="true" />
++        </pattern>
++      </extension>
++      <method v="2">
++        <option name="Make" enabled="true" />
++      </method>
++    </configuration>
++    <configuration name="DateTime" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
++      <option name="MAIN_CLASS_NAME" value="java8.DateTime.DateTime" />
++      <module name="JAVA" />
++      <extension name="coverage">
++        <pattern>
++          <option name="PATTERN" value="java8.DateTime.*" />
++          <option name="ENABLED" value="true" />
++        </pattern>
++      </extension>
++      <method v="2">
++        <option name="Make" enabled="true" />
++      </method>
++    </configuration>
++    <configuration name="DateTime" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
++      <option name="MAIN_CLASS_NAME" value="java8.DateTime.DateTime" />
++      <module name="JAVA" />
++      <extension name="coverage">
++        <pattern>
++          <option name="PATTERN" value="java8.DateTime.*" />
++          <option name="ENABLED" value="true" />
++        </pattern>
++      </extension>
++      <method v="2">
++        <option name="Make" enabled="true" />
++      </method>
++    </configuration>
++    <configuration name="StreamClass" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
++      <option name="MAIN_CLASS_NAME" value="java11.stream.StreamClass" />
++      <module name="JAVA" />
++      <extension name="coverage">
++        <pattern>
++          <option name="PATTERN" value="java11.stream.*" />
++          <option name="ENABLED" value="true" />
++        </pattern>
++      </extension>
++      <method v="2">
++        <option name="Make" enabled="true" />
++      </method>
++    </configuration>
++    <configuration name="StreamClass" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
++      <option name="MAIN_CLASS_NAME" value="java11.stream.StreamClass" />
+       <module name="JAVA" />
+       <extension name="coverage">
+         <pattern>
+-          <option name="PATTERN" value="java8.DefaultMethod.*" />
++          <option name="PATTERN" value="java11.stream.*" />
+           <option name="ENABLED" value="true" />
+         </pattern>
+       </extension>
+@@ -77,12 +171,12 @@
+         <option name="Make" enabled="true" />
+       </method>
+     </configuration>
+-    <configuration name="FunctionInterface" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+-      <option name="MAIN_CLASS_NAME" value="java8.FunctionalInterface.FunctionInterface" />
++    <configuration name="StringTestClass" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
++      <option name="MAIN_CLASS_NAME" value="java11.String.StringTestClass" />
+       <module name="JAVA" />
+       <extension name="coverage">
+         <pattern>
+-          <option name="PATTERN" value="java8.FunctionalInterface.*" />
++          <option name="PATTERN" value="java11.String.*" />
+           <option name="ENABLED" value="true" />
+         </pattern>
+       </extension>
+@@ -90,12 +184,12 @@
+         <option name="Make" enabled="true" />
+       </method>
+     </configuration>
+-    <configuration name="NewVersion" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+-      <option name="MAIN_CLASS_NAME" value="java8.Stream.NewVersion" />
++    <configuration name="StringTestClass" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
++      <option name="MAIN_CLASS_NAME" value="java11.String.StringTestClass" />
+       <module name="JAVA" />
+       <extension name="coverage">
+         <pattern>
+-          <option name="PATTERN" value="java8.Stream.*" />
++          <option name="PATTERN" value="java11.String.*" />
+           <option name="ENABLED" value="true" />
+         </pattern>
+       </extension>
+@@ -103,12 +197,12 @@
+         <option name="Make" enabled="true" />
+       </method>
+     </configuration>
+-    <configuration name="OldVersion" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+-      <option name="MAIN_CLASS_NAME" value="java8.Stream.OldVersion" />
++    <configuration name="test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
++      <option name="MAIN_CLASS_NAME" value="java8.test" />
+       <module name="JAVA" />
+       <extension name="coverage">
+         <pattern>
+-          <option name="PATTERN" value="java8.Stream.*" />
++          <option name="PATTERN" value="java8.*" />
+           <option name="ENABLED" value="true" />
+         </pattern>
+       </extension>
+@@ -116,12 +210,12 @@
+         <option name="Make" enabled="true" />
+       </method>
+     </configuration>
+-    <configuration name="StreamProperty" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+-      <option name="MAIN_CLASS_NAME" value="java8.Stream.StreamProperty" />
++    <configuration name="test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
++      <option name="MAIN_CLASS_NAME" value="java8.test" />
+       <module name="JAVA" />
+       <extension name="coverage">
+         <pattern>
+-          <option name="PATTERN" value="java8.Stream.*" />
++          <option name="PATTERN" value="java8.*" />
+           <option name="ENABLED" value="true" />
+         </pattern>
+       </extension>
+@@ -131,18 +225,19 @@
+     </configuration>
+     <recent_temporary>
+       <list>
+-        <item itemvalue="Application.StreamProperty" />
+-        <item itemvalue="Application.NewVersion" />
+-        <item itemvalue="Application.OldVersion" />
+-        <item itemvalue="Application.DefaultClass" />
+-        <item itemvalue="Application.FunctionInterface" />
++        <item itemvalue="Application.StringTestClass" />
++        <item itemvalue="Application.StreamClass" />
++        <item itemvalue="Application.CollectionClass" />
++        <item itemvalue="Application.test" />
++        <item itemvalue="Application.DateTime" />
+       </list>
+     </recent_temporary>
+   </component>
+   <component name="SharedIndexes">
+     <attachedChunks>
+       <set>
+-        <option value="jdk-1.8.0_402-corretto-1.8.0_402-f644763e9732-1a501b52" />
++        <option value="bundled-jdk-9f38398b9061-39b83d9b5494-intellij.indexing.shared.core-IU-241.15989.150" />
++        <option value="bundled-js-predefined-1d06a55b98c1-91d5c284f522-JavaScript-IU-241.15989.150" />
+       </set>
+     </attachedChunks>
+   </component>
+@@ -157,6 +252,13 @@
+       <workItem from="1707667379685" duration="7443000" />
+       <workItem from="1707968487650" duration="2431000" />
+       <workItem from="1708078029010" duration="1893000" />
++      <workItem from="1708757538840" duration="2527000" />
++      <workItem from="1709033665497" duration="4753000" />
++      <workItem from="1710742649028" duration="149000" />
++      <workItem from="1710914990347" duration="7000" />
++      <workItem from="1715328040564" duration="4332000" />
++      <workItem from="1715587184697" duration="6728000" />
++      <workItem from="1715684877459" duration="675000" />
+     </task>
+     <task id="LOCAL-00001" summary="java 8 목차 작성">
+       <created>1707669041154</created>
+@@ -172,7 +274,79 @@
+       <option name="project" value="LOCAL" />
+       <updated>1708316915857</updated>
+     </task>
+-    <option name="localTasksCounter" value="3" />
++    <task id="LOCAL-00003" summary="java stream basic 정리 중">
++      <option name="closed" value="true" />
++      <created>1708404747982</created>
++      <option name="number" value="00003" />
++      <option name="presentableId" value="LOCAL-00003" />
++      <option name="project" value="LOCAL" />
++      <updated>1708404747982</updated>
++    </task>
++    <task id="LOCAL-00004" summary="java stream basic 정리">
++      <option name="closed" value="true" />
++      <created>1708572297523</created>
++      <option name="number" value="00004" />
++      <option name="presentableId" value="LOCAL-00004" />
++      <option name="project" value="LOCAL" />
++      <updated>1708572297523</updated>
++    </task>
++    <task id="LOCAL-00005" summary="java stream advanced 정리 완료">
++      <option name="closed" value="true" />
++      <created>1708574926189</created>
++      <option name="number" value="00005" />
++      <option name="presentableId" value="LOCAL-00005" />
++      <option name="project" value="LOCAL" />
++      <updated>1708574926189</updated>
++    </task>
++    <task id="LOCAL-00006" summary="Optional 정리중">
++      <option name="closed" value="true" />
++      <created>1708661765173</created>
++      <option name="number" value="00006" />
++      <option name="presentableId" value="LOCAL-00006" />
++      <option name="project" value="LOCAL" />
++      <updated>1708661765173</updated>
++    </task>
++    <task id="LOCAL-00007" summary="DateTime api 정리">
++      <option name="closed" value="true" />
++      <created>1708752424712</created>
++      <option name="number" value="00007" />
++      <option name="presentableId" value="LOCAL-00007" />
++      <option name="project" value="LOCAL" />
++      <updated>1708752424712</updated>
++    </task>
++    <task id="LOCAL-00008" summary="DateTime api 코드 정리">
++      <option name="closed" value="true" />
++      <created>1708754746541</created>
++      <option name="number" value="00008" />
++      <option name="presentableId" value="LOCAL-00008" />
++      <option name="project" value="LOCAL" />
++      <updated>1708754746541</updated>
++    </task>
++    <task id="LOCAL-00009" summary="jvm 변경 사항 정리">
++      <option name="closed" value="true" />
++      <created>1708755554647</created>
++      <option name="number" value="00009" />
++      <option name="presentableId" value="LOCAL-00009" />
++      <option name="project" value="LOCAL" />
++      <updated>1708755554647</updated>
++    </task>
++    <task id="LOCAL-00010" summary="java8 정리 완료">
++      <option name="closed" value="true" />
++      <created>1708755741218</created>
++      <option name="number" value="00010" />
++      <option name="presentableId" value="LOCAL-00010" />
++      <option name="project" value="LOCAL" />
++      <updated>1708755741218</updated>
++    </task>
++    <task id="LOCAL-00011" summary="java 정리 수정">
++      <option name="closed" value="true" />
++      <created>1709357945572</created>
++      <option name="number" value="00011" />
++      <option name="presentableId" value="LOCAL-00011" />
++      <option name="project" value="LOCAL" />
++      <updated>1709357945573</updated>
++    </task>
++    <option name="localTasksCounter" value="12" />
+     <servers />
+   </component>
+   <component name="TypeScriptGeneratedFilesManager">
+@@ -204,6 +378,19 @@
+   <component name="VcsManagerConfiguration">
+     <MESSAGE value="java 8 목차 작성" />
+     <MESSAGE value="Default method 정리" />
+-    <option name="LAST_COMMIT_MESSAGE" value="Default method 정리" />
++    <MESSAGE value="java stream basic 정리 중" />
++    <MESSAGE value="java stream basic 정리" />
++    <MESSAGE value="java stream advanced 정리 완료" />
++    <MESSAGE value="Optional 정리중" />
++    <MESSAGE value="DateTime api 정리" />
++    <MESSAGE value="DateTime api 코드 정리" />
++    <MESSAGE value="jvm 변경 사항 정리" />
++    <MESSAGE value="java8 정리 완료" />
++    <MESSAGE value="java 정리 수정" />
++    <option name="LAST_COMMIT_MESSAGE" value="java 정리 수정" />
++  </component>
++  <component name="XSLT-Support.FileAssociations.UIState">
++    <expand />
++    <select />
+   </component>
+ </project>
+\ No newline at end of file
+Index: ../../.idea/misc.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+><?xml version=\"1.0\" encoding=\"UTF-8\"?>\n<project version=\"4\">\n  <component name=\"ProjectRootManager\" version=\"2\" languageLevel=\"JDK_1_8\" default=\"true\" project-jdk-name=\"1.8\" project-jdk-type=\"JavaSDK\">\n    <output url=\"file://$PROJECT_DIR$/out\" />\n  </component>\n  <component name=\"ProjectType\">\n    <option name=\"id\" value=\"jpab\" />\n  </component>\n</project>
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/../../.idea/misc.xml b/../../.idea/misc.xml
+--- a/../../.idea/misc.xml	(revision 0ff82cd5667426e7a3e87f3fa1100e9d8bd321a4)
++++ b/../../.idea/misc.xml	(date 1709357792143)
+@@ -1,6 +1,6 @@
+ <?xml version="1.0" encoding="UTF-8"?>
+ <project version="4">
+-  <component name="ProjectRootManager" version="2" languageLevel="JDK_1_8" default="true" project-jdk-name="1.8" project-jdk-type="JavaSDK">
++  <component name="ProjectRootManager" version="2" languageLevel="JDK_21" project-jdk-name="openjdk-21" project-jdk-type="JavaSDK">
+     <output url="file://$PROJECT_DIR$/out" />
+   </component>
+   <component name="ProjectType">
