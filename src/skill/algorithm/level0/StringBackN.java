@@ -1,4 +1,4 @@
-package skill.algorithm;
+package skill.algorithm.level0;
 
 public class StringBackN {
 
