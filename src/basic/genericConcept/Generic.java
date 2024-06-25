@@ -1,3 +1,5 @@
+package basic.genericConcept;
+
 public class Generic <E> {
 
     private E element;
