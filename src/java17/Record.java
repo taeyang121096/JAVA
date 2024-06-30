@@ -10,8 +10,8 @@ public class Record {
         TestClass copyTest1 = new TestClass(test1.getAge(), test1.getName());
         System.out.println(test1.equals(copyTest1));
 
-        Test2 test11 = new Test2(1, "test1");
-        Test2 test21 = new Test2(test11.age(), test11.name());
-        System.out.println(test11.equals(test21));
+//        Test2 test11 = new Test2(1, "test1");
+//        Test2 test21 = new Test2(test11.age(), test11.name());
+//        System.out.println(test11.equals(test21));
     }
 }

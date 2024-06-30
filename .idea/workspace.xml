@@ -4,9 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="10493426-21ff-4628-9868-a29d15b659c4" name="Changes" comment="java 8 목차 작성">
-      <change beforePath="$PROJECT_DIR$/src/java17/InstanceOf.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/java17/Test2.java" beforeDir="false" />
+    <list default="true" id="10493426-21ff-4628-9868-a29d15b659c4" name="Changes" comment="정리">
+      <change afterPath="$PROJECT_DIR$/src/skill/algorithm/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/skill/algorithm/level2/OilDrilling.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -222,7 +223,7 @@
       <workItem from="1707667379685" duration="7443000" />
       <workItem from="1707968487650" duration="2431000" />
       <workItem from="1708078029010" duration="1893000" />
-      <workItem from="1718855144065" duration="3129000" />
+      <workItem from="1718855144065" duration="11614000" />
     </task>
     <task id="LOCAL-00001" summary="java 8 목차 작성">
       <created>1707669041154</created>
@@ -238,7 +239,23 @@
       <option name="project" value="LOCAL" />
       <updated>1708316915857</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="정리">
+      <option name="closed" value="true" />
+      <created>1719319620339</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1719319620339</updated>
+    </task>
+    <task id="LOCAL-00004" summary="정리">
+      <option name="closed" value="true" />
+      <created>1719319626462</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1719319626462</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -270,6 +287,7 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="java 8 목차 작성" />
     <MESSAGE value="Default method 정리" />
-    <option name="LAST_COMMIT_MESSAGE" value="Default method 정리" />
+    <MESSAGE value="정리" />
+    <option name="LAST_COMMIT_MESSAGE" value="정리" />
   </component>
 </project>
